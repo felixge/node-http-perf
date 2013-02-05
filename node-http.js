@@ -11,7 +11,6 @@ benchmark('node-http', function(cb) {
   for (var i = 0; i < runs; i++) {
     var headers;
     parser.onHeadersComplete = function(info) {
-      console.log(info);
       headers = info.headers.length;
     };
 
