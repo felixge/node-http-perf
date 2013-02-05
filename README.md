@@ -73,7 +73,7 @@ So why is the js parser faster? It's hard to say, but my guess is:
 * Because this benchmark shows the cost of calling C/C++ code from JS and vise
   versa in v8.
 
-Other observation:
+Other observations:
 
 * I saw an overall performance decrease when upgrading from node v0.8.11 to
   v0.8.18.
