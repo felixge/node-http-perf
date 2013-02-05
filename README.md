@@ -10,7 +10,7 @@ The http request is in fixtures/get.http and contains 611 bytes, 1 status line
 and 8 headers. 
 
 In order to have a "control group", I have implemented a fast, but very
-incomplete, parser in `lib/js_htt_parser.js`. However, it is able to parse the
+incomplete, parser in `lib/js_http_parser.js`. However, it is able to parse the
 headers of the fixture correctly, so it can serve as an interesting data point.
 
 # results
